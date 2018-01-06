@@ -6,7 +6,7 @@ from os import listdir
 from bs4 import BeautifulSoup
 from selenium import webdriver
 driver = webdriver.Firefox()
-url = 'https://www.slideshare.net/anniyappa/dbms-an-example'
+url = 'https://www.slideshare.net/the10dar/document-33319174'
 folder = 'images/'
 driver.get(url)
 source = driver.page_source
